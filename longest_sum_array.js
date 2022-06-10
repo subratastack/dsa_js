@@ -72,7 +72,7 @@ function maxSubarraySumUsingSlidingWindow(arr, num) {
 		max += arr[i];
 	}
 
-	// on each iteration subtract i-1 and add i+num+1
+	// on each iteration subtract i-num and add ith term
 	// check if the new sum is greater then max variable, then update max variable
 
 	temp = max;
