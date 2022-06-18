@@ -43,7 +43,7 @@ function sameFrequency(num1, num2) {
 
 
 // write test case to test the above code
-// if there is nothing displayed on terminal then the test cases were successfull
+// if there is nothing displayed on terminal then the test cases were successful
 
 assert.equal(false, sameFrequency(22, 222));
 assert.equal(true, sameFrequency(182, 281));
